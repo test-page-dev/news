@@ -341,9 +341,13 @@ i {
 .nb {
   max-width: 300px;
 }
+.nb__wrap {
+  display: flex;
+}
 .nb--wide {
   max-height: 90px;
   max-width: 730px;
+  width: 100%;
 }
 .nb--square {
   max-height: 250px;
