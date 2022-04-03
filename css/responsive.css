@@ -84,6 +84,9 @@
   .header__search-inner.is-active {
     transform: translateX(-50%);
   }
+  .header__search .search-input__reset {
+    display: none;
+  }
 
   /* News */
   .news__spotlight-inner {
