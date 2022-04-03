@@ -33,6 +33,9 @@
 
   /* Nb */
   .nb {
+    overflow: hidden;
+    max-width: none;
+    max-height: 600px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -42,11 +45,8 @@
     grid-template: auto/1fr;
   }
   .news__img {
-    max-height: 350px;
+    max-height: 700px;
     overflow: hidden;
-  }
-  .news--xl .news__img {
-    max-height: 400px;
   }
 }
 /* --- Tablet M --- */
@@ -102,6 +102,35 @@
   /* Category */
   .category__top {
     grid-template: auto/1fr;
+  }
+
+  /* Columns */
+  .columns {
+    grid-template: auto/1fr;
+  }
+
+  .column--wide {
+    grid-row: 1/2;
+  }
+  .column--narrow {
+    width: 100%;
+  }
+
+  /* Nb */
+  .nb {
+    max-width: none;
+    max-height: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* News */
+  .news__bottom {
+    grid-template: auto/1fr;
+  }
+  .news__img {
+    max-height: 700px;
+    overflow: hidden;
   }
 }
 /* --- Mobile Phones L --- */
