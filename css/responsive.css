@@ -1,0 +1,86 @@
+/* --- Monitors and Laptops L --- */
+/* --- Laptop M --- */
+@media only screen and (max-width: 1366px) {
+  /* Container */
+  .container {
+    max-width: 1170px;
+  }
+}
+/* --- Tablet L --- */
+@media only screen and (max-width: 1240px) {
+  /* Container */
+  .container {
+    max-width: clamp(950px, 95vw, 1100px);
+  }
+}
+/* --- Tablet M --- */
+@media only screen and (max-width: 1024px) {
+  /* Container */
+  .container {
+    max-width: clamp(750px, 95vw, 950px);
+  }
+
+  /* Header */
+  .header__search-close {
+    display: flex;
+  }
+  .header__search-form {
+    width: 100%;
+  }
+  .header__search-inner {
+    transform: translateX(-50%);
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 70px 20px 40px;
+    border-radius: 6px;
+  }
+  .header__search-inner .search-input {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .header__search-inner .search-input__reset {
+    width: 35px;
+  }
+  .header__search-inner.is-active {
+    transform: translateX(-50%);
+  }
+}
+/* --- Mobile Phones L --- */
+@media only screen and (max-width: 768px) {
+  /* Container */
+  .container {
+    padding: 0;
+    max-width: none;
+    width: calc(100% - 20px);
+  }
+
+  /* Burger */
+  .burger {
+    margin-right: 20px;
+  }
+  .burger::after {
+    display: none;
+  }
+
+  /* Header */
+  .header__socials {
+    display: none;
+  }
+}
+/* --- Mobile Phones M --- */
+/* --- Mobile Phones S --- */
+@media only screen and (max-width: 375px) {
+  /* Header */
+  .header__login span {
+    display: none;
+  }
+}
