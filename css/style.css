@@ -1606,8 +1606,8 @@ i {
 .news--vertical {
   flex-direction: column;
 }
-.news--mb35 {
-  margin-bottom: clamp(20px, 2vw, 35px);
+.news--mb20 {
+  margin-bottom: 20px;
 }
 .news--video .news__img {
   position: relative;
