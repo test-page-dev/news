@@ -31,15 +31,6 @@
     width: 100%;
   }
 
-  /* Nb */
-  .nb {
-    overflow: hidden;
-    max-width: none;
-    max-height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   /* News */
   .news__bottom {
     grid-template: auto/1fr;

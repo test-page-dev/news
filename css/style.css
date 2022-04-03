@@ -340,7 +340,9 @@ i {
 /* Banners */
 .nb {
   display: flex;
+  justify-content: center;
   max-width: 300px;
+  margin: 0 auto;
 }
 .nb__wrap {
   display: flex;
